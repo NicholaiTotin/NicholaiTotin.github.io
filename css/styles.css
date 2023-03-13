@@ -2091,7 +2091,6 @@ progress {
 .table > :not(:first-child) {
   border-top: 0.25rem solid currentColor;
 }
-
 .caption-top {
   caption-side: top;
 }
@@ -7912,7 +7911,15 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: var(--bs-green) !important;
+}
+
+.bg-banner {
+  --bs-bg-opacity: 1;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  background-image: url("../assets/img/Banner.jpg") !important;
 }
 
 .bg-secondary {
@@ -11548,11 +11555,11 @@ html {
 .masthead .masthead-avatar {
   width: 15rem;
 }
-
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
+    margin-top: 104px;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
