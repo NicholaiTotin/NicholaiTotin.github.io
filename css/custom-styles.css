@@ -2,11 +2,40 @@ body
 {
     background-color: rgb( 44, 62, 80) !important;
 }
+.portfolio
+{
+    background-color: white !important;
+}
 .page-section
 {
-    background-color: white;
+    background-color: black;
 }
 header
 {
     background-color: black;
+}
+
+.bg-green
+{
+    background-color: #1abc9c;
+}
+
+.black-icon
+{
+    color: black !important;
+}
+
+.white-divider
+{
+    background-color: white;
+}
+
+.black-divider
+{
+    background-color: black;
+}
+
+.text-secondary-white 
+{
+    color: white !important;
 }
