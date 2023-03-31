@@ -4555,6 +4555,7 @@ textarea.form-control-lg {
 }
 
 .card {
+  display: inline-block;
   position: relative;
   display: flex;
   flex-direction: column;

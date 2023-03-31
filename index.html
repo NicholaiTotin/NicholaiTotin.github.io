@@ -28,6 +28,7 @@
       type="text/css"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/custom-styles.css" rel="stylesheet" />
   </head>
@@ -120,11 +121,11 @@
         </div>
         <!-- Portfolio Grid Items-->
         <div class="row">
-          <!-- Portfolio Item 1-->
-          <div class="col-md-7 col-lg-6 mb-5">
-            <div class="card mb-3" style="max-width: 800px">
+
+          <div class="card-columns">
+            <div class="card">
               <div class="row g-0">
-                <div class="col-md-4 col-10 mx-auto">
+                <div class="col-md-5 mx-auto col-8">
                   <video
                     class="img-fluid rounded"
                     src="assets/videos/HotJumpTrailer.mp4"
@@ -137,16 +138,16 @@
                     ;
                   ></video>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7">
                   <div class="card-body">
                     <h5 class="card-title">Hot Jump</h5>
                     <p class="card-text">
-                      Platformer game for mobile, inspired in games like Doodle
-                      Jump or Jump King, use Playfab to save highscores.<br>
-                      Made in five months in total.
+                      Platformer game for mobile, inspired by games like Doodle
+                      Jump and Jump King, has enticing features such as power-ups, leaderboards, skins and store. Uses Playfab to store player data such as progress and highscores online.<br>
+                      Total development time of ≈5 months.
                     </p>
                     <p class="card-text">
-                      <small class="text-muted">Available on Play Store</small>
+                      <small class="text-muted">Available on Google Play Store</small>
                     </p>
                     <a
                       href="https://play.google.com/store/apps/details?id=com.CuartoPiso.HotJump&hl=en&gl=US"
@@ -159,14 +160,12 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-12 col-lg-6 mb-5">
-            <div class="card mb-3" style="max-width: 640px; max-height: 700px;">
+            <div class="card mb-1">
               <div class="row g-0">
-                <div class="col-md-4 col-10" style="width: 640px; height: 360px;" >
+                <div class="col-md-4 col-10 mx-auto">
                   <video
                     class="img-fluid rounded"
-                    src="assets/videos/BoxyRoads.mp4"
+                    src="assets/videos/SlashInTheDungeon.mp4"
                     controls
                     style="pointer-events: none"
                     autoplay="true"
@@ -178,10 +177,50 @@
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
+                    <h5 class="card-title">Slash In The Dungeon (Demo)</h5>
+                    <p class="card-text">
+                      Dungeon Crawler-type game, turn-based combat with a stats system for varied play styles, made using Unity 2021.3.20f1.<br>
+                      You can see the code clicking the See Code button. <br> 
+                      Available for Windows via the Download button<br>
+                      Total development time of ≈3 months.
+                    </p>
+                    
+                    <a
+                      href="https://gitfront.io/r/user-9683760/PTpEzdcmEtEo/SlashInTheDungeon/"
+                      target="_blank"
+                    >
+                    <button class="button-68" role="button">See Code</button>
+                    </a>
+                    
+                    
+                    <a
+                      href="https://github.com/NicholaiTotin/SlashInTheDungeon/releases/download/Unity/Slash.in.the.dungeon.zip"
+                      target="_blank"
+                    >
+                    <button class="button-68" role="button">Download</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-1">
+                  <video
+                    class="img-fluid rounded"
+                    src="assets/videos/BoxyRoads.mp4"
+                    controls
+                    style="pointer-events: none"
+                    autoplay="true"
+                    muted
+                    preload="auto"
+                    loop="true"
+                    ;
+                  ></video>
+
+                  <div class="card-body">
                     <h5 class="card-title">Boxy Roads</h5>
                     <p class="card-text">
-                      3D game style like crossy road for web, in boxy roads you have to cross streets, roads and rivers use a server call dreamlo to save highscores.<br>
-                      Made in one month and a half.
+                      Frogger-style 3D game inspired by Crossy Roads developed for web browsers. Simple yet entertaining gameplay with a unique art style and cloud-stored player highscores.<br>
+                      Total development time of ≈1.5 months.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">Available on Itch.io</small>
@@ -193,90 +232,12 @@
                     <button class="button-68" role="button">See more</button>
                     </a>
                   </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--
-                        <h3 class="hot-jump-section" align="center">Hot Jump Trailer</h3>
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div align="center">
-                                    <video src="assets/videos/HotJumpTrailer.mp4" controls style="pointer-events: none; max-width:50%; max-height:25%"autoplay="true" muted preload="auto";></video>
-                                </div>
-                            </div>
-                        </div>
-                        -->
-    <!-- Portfolio Item 2-->
-
-    <!-- 
-                    Portfolio Item 3
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
-                        </div>
-                    </div>
-                     Portfolio Item 4
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>
-                     Portfolio Item 5
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div>
-                    Portfolio Item 6
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div
-                </div>
-            </div>
-        </section>
-        Experience Section
-        <section class="page-section bg-primary text-white mb-0" id="experience">
-            <div class="container">
-                <!-Experience Section Heading
-                <h2 class="page-section-heading text-center text-uppercase text-white">Experience</h2>
-                <!- Icon Divider
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                < Experience Section Content-
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!- Experience Section Button--
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
-        -->
     <!-- Skills Section-->
     <section class="page-section" id="skills">
       <div class="container">
@@ -304,8 +265,8 @@
             <div class="card-body">
               <h5 class="card-title">Languages</h5>
               <p class="card-text">
-                Since Unity 5 I been using <strong>C#</strong>  therefore strong knowledge with POO. Also I used with windows forms for other proyects.<br>
-                <strong>GDScript</strong>  I started to use in 2021, although is not that strong as C#, I know the syntax and most functions of the language.
+                Since Unity 5 I've been using <strong>C#</strong>, which provides me with strong knowledge of POO. Also implemented tools such as Windows Forms in some instances.<br>
+                <strong>GDScript</strong>  Started in 2021, although is not my strongest, like C#, I'd confidently say I have a very good grasp of it's main functionalities and syntax.
               </p>
             </div>
           </div>
@@ -316,8 +277,8 @@
             <div class="card-body">
               <h5 class="card-title">Engines</h5>
               <p class="card-text">
-                <strong>Unity</strong> I been using continuously since the release of Unity 5 more than 5 years understaing the engine and still learning, knowledge with Scriptable objects, Cinemachine, Unity events, Text Mesh Pro, Animations, Animator, Profiler, PlasticSCM.<br>
-                <strong>Godot</strong> since 2021 still learning especially now with Godot 4, not so many proyects I made with this engine, but still I have knowledge how things works, specifically in 2D for example layers and physics layers, the animation system, sprite editor and more.
+                <strong>Unity</strong> I've been deeply invested in developing on Unity since the release of Unity 5, with more than 5 years using the engine and still learning it's many incredible functionalities. I dominate most of these utilities within the engine, from Scriptable objects, Cinemachine, Unity events and Text Mesh Pro, to Animations, Animator, Profiler and PlasticSCM.<br>
+                <strong>Godot</strong> Been using Godot since 2021 and still learning, especially with the new release of Godot 4. The projects I've worked on have been all 2D, with understanding of layers and physics layers, the animation system, sprite editor and more.
               </p>
             </div>
           </div>
@@ -326,10 +287,10 @@
           <div class="card mb-3">
             <img src="assets/img/Other.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Other</h5>
+              <h5 class="card-title">Productivity</h5>
               <p class="card-text">
-                <strong>Paint.Net</strong> very useful and complete program for image editor, Just in case of is some problem with the sprite, change color, for prototyping, or change size of image/canvas.<br>
-                <strong>Trello</strong> is the tool I use for organization even if I am alone or with a team. As well I used <strong>Miro</strong> a couple of times.<br>
+                <strong>Paint.Net</strong> Basically all of the assets in my projects are original, and Paint.NET has been my go-to image editor due to it's usefulness and functionalities.<br>
+                <strong>Trello</strong> Personally essential when it comes to project organizing and productivity, wether alone or working with a team. <strong>Miro</strong> has also been a very good alternative<br>
                 English certification, <strong>IELTS</strong>, with an overall 6.0.
               </p>
             </div>
@@ -355,10 +316,8 @@
         <div class="row">
           <div class="col-lg-4 ms-auto" style="text-align: justify; text-justify: inter-word;">
             <p class="lead">
-              My name is Nicholai Totin, from Chile and now I am living in Spain, since I have memory I love videogames, I played 
-              a tons of genders like Roguelike, FPS, Platforms, Fighting, RPG's, Strategy, Puzzle and more but if I have to choose RPG's, FPS and Platforms are my favorites. 
-              I started the idea of working in the game industry since 2014 so now here I am looking for work as a game developer.<br>
-              In my free time, apart of playing games, I like to go out, hanging out with friends, do some exercise, always open minded to try new things.
+              My name is Nicholai Alexander Totin Arnalot, born and raised in Chile, currently living in Spain. Videogames have been a passion of mine since I can remember. I enjoy all kinds of genres, from Roguelike, FPS, Platformers and Fighting, to RPG's, Strategy, Puzzle and more, though my personal favorites are RPG's, FPS and Platformers. I've had the intention of entering the videogame development industry since 2014, and after many years of studying and creating passion projects, I feel confident in joining a team just as passionate to put my abilities to use in creating unique experiences.<br>
+              In my free time, besides playing games, I like going out, hanging out with friends, excersicing, and I', always open to discovering new hobbies and activities.
             </p>
           </div>
           <div class="col-lg-4 me-auto">
@@ -381,7 +340,7 @@
           </div>
           <!-- Footer Social Icons-->
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">contact</h4>
+            <h4 class="text-uppercase mb-4">Contact</h4>
             <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/12kgamestudios/" target="_blank"
               ><i class="fab fa-fw fa-instagram"></i
             ></a>

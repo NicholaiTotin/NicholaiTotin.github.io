@@ -39,3 +39,9 @@ header
 {
     color: white !important;
 }
+
+
+.card-columns
+{
+    column-count: 2;
+}
