@@ -40,8 +40,18 @@ header
     color: white !important;
 }
 
-
-.card-columns
+@media only screen and (max-width: 768px) 
 {
-    column-count: 2;
+    .card-columns
+    {
+        column-count: 1;
+    }     
+}
+
+@media only screen and (min-width: 769px) 
+{
+    .card-columns
+    {
+        column-count: 3;
+    }     
 }
